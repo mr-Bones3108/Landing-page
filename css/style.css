@@ -13,6 +13,10 @@ font-family: 'Poppins', sans-serif;
     width: 100%;
     min-height:100vh;
     background: linear-gradient(to right, rgb(0, 210, 255), rgb(146, 141, 171));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
 }
 .custom-shape-divider-bottom-1607937650 {
     position: absolute;
@@ -70,4 +74,44 @@ header .navigation li a{
     color: #FFFFFF;
     margin-left: 40px;
     text-decoration: none;
+}
+
+.content{
+    position: relative;
+    max-width: 600px;
+    z-index: 1;
+}
+
+.content h2{
+    color: #FFFFFF;
+    font-size:5em;
+    line-height: 1em;
+}
+
+.content h2 span{
+    color: #FFFFFF;
+    font-size:0.7em;
+    
+}
+
+.content p
+{
+    color: #FFFFFF;
+    margin: 10px 0 20px;
+}
+
+.content a{
+    padding: 10px 30px;
+    background: #FFFFFF;
+    display: inline-block;
+    text-decoration: none;
+    color: #111;
+
+}
+
+.girl{
+    position: absolute;
+    /* bottom: 0; */
+    height: 60%;
+    right: 100px;
 }
